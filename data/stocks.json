@@ -1,0 +1,677 @@
+[
+  {
+    "symbol": "AAPL",
+    "companyName": "Apple Inc.",
+    "iconUrl": "https://img.logo.dev/apple.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "175.43",
+    "currentPrice": 175.43,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "MSFT",
+    "companyName": "Microsoft Corporation",
+    "iconUrl": "https://img.logo.dev/microsoft.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "338.11",
+    "currentPrice": 338.11,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "GOOGL",
+    "companyName": "Alphabet Inc. (Google)",
+    "iconUrl": "https://img.logo.dev/google.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "142.56",
+    "currentPrice": 142.56,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "AMZN",
+    "companyName": "Amazon.com Inc.",
+    "iconUrl": "https://img.logo.dev/amazon.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "145.24",
+    "currentPrice": 145.24,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "TSLA",
+    "companyName": "Tesla Inc.",
+    "iconUrl": "https://img.logo.dev/tesla.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "248.50",
+    "currentPrice": 248.50,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "META",
+    "companyName": "Meta Platforms Inc.",
+    "iconUrl": "https://img.logo.dev/meta.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "334.87",
+    "currentPrice": 334.87,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "NVDA",
+    "companyName": "NVIDIA Corporation",
+    "iconUrl": "https://img.logo.dev/nvidia.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "485.09",
+    "currentPrice": 485.09,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "NFLX",
+    "companyName": "Netflix Inc.",
+    "iconUrl": "https://img.logo.dev/netflix.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "492.19",
+    "currentPrice": 492.19,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "JPM",
+    "companyName": "JPMorgan Chase & Co.",
+    "iconUrl": "https://img.logo.dev/jpmorganchase.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "172.28",
+    "currentPrice": 172.28,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "JNJ",
+    "companyName": "Johnson & Johnson",
+    "iconUrl": "https://img.logo.dev/jnj.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "162.45",
+    "currentPrice": 162.45,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "V",
+    "companyName": "Visa Inc.",
+    "iconUrl": "https://img.logo.dev/visa.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "264.85",
+    "currentPrice": 264.85,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "WMT",
+    "companyName": "Walmart Inc.",
+    "iconUrl": "https://img.logo.dev/walmart.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "67.56",
+    "currentPrice": 67.56,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "PG",
+    "companyName": "Procter & Gamble Co.",
+    "iconUrl": "https://img.logo.dev/pg.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "156.78",
+    "currentPrice": 156.78,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "HD",
+    "companyName": "The Home Depot Inc.",
+    "iconUrl": "https://img.logo.dev/homedepot.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "342.56",
+    "currentPrice": 342.56,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "DIS",
+    "companyName": "The Walt Disney Company",
+    "iconUrl": "https://img.logo.dev/disney.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "89.07",
+    "currentPrice": 89.07,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "BAC",
+    "companyName": "Bank of America Corp.",
+    "iconUrl": "https://img.logo.dev/bankofamerica.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "32.14",
+    "currentPrice": 32.14,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "MA",
+    "companyName": "Mastercard Inc.",
+    "iconUrl": "https://img.logo.dev/mastercard.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "421.73",
+    "currentPrice": 421.73,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "XOM",
+    "companyName": "Exxon Mobil Corporation",
+    "iconUrl": "https://img.logo.dev/exxonmobil.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "108.37",
+    "currentPrice": 108.37,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "CVX",
+    "companyName": "Chevron Corporation",
+    "iconUrl": "https://img.logo.dev/chevron.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "152.89",
+    "currentPrice": 152.89,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "KO",
+    "companyName": "The Coca-Cola Company",
+    "iconUrl": "https://img.logo.dev/coca-cola.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "58.93",
+    "currentPrice": 58.93,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "PEP",
+    "companyName": "PepsiCo Inc.",
+    "iconUrl": "https://img.logo.dev/pepsico.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "172.64",
+    "currentPrice": 172.64,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "ABBV",
+    "companyName": "AbbVie Inc.",
+    "iconUrl": "https://img.logo.dev/abbvie.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "148.22",
+    "currentPrice": 148.22,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "MRK",
+    "companyName": "Merck & Co. Inc.",
+    "iconUrl": "https://img.logo.dev/merck.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "109.45",
+    "currentPrice": 109.45,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "PFE",
+    "companyName": "Pfizer Inc.",
+    "iconUrl": "https://img.logo.dev/pfizer.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "31.56",
+    "currentPrice": 31.56,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "COST",
+    "companyName": "Costco Wholesale Corporation",
+    "iconUrl": "https://img.logo.dev/costco.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "568.34",
+    "currentPrice": 568.34,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "TMO",
+    "companyName": "Thermo Fisher Scientific Inc.",
+    "iconUrl": "https://img.logo.dev/thermofisher.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "524.67",
+    "currentPrice": 524.67,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "ADBE",
+    "companyName": "Adobe Inc.",
+    "iconUrl": "https://img.logo.dev/adobe.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "547.23",
+    "currentPrice": 547.23,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "CRM",
+    "companyName": "Salesforce Inc.",
+    "iconUrl": "https://img.logo.dev/salesforce.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "218.45",
+    "currentPrice": 218.45,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "ORCL",
+    "companyName": "Oracle Corporation",
+    "iconUrl": "https://img.logo.dev/oracle.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "116.78",
+    "currentPrice": 116.78,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "CSCO",
+    "companyName": "Cisco Systems Inc.",
+    "iconUrl": "https://img.logo.dev/cisco.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "51.34",
+    "currentPrice": 51.34,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "INTC",
+    "companyName": "Intel Corporation",
+    "iconUrl": "https://img.logo.dev/intel.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "35.47",
+    "currentPrice": 35.47,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "AMD",
+    "companyName": "Advanced Micro Devices Inc.",
+    "iconUrl": "https://img.logo.dev/amd.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "118.93",
+    "currentPrice": 118.93,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "QCOM",
+    "companyName": "Qualcomm Inc.",
+    "iconUrl": "https://img.logo.dev/qualcomm.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "127.56",
+    "currentPrice": 127.56,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "IBM",
+    "companyName": "International Business Machines Corp.",
+    "iconUrl": "https://img.logo.dev/ibm.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "147.89",
+    "currentPrice": 147.89,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "GS",
+    "companyName": "The Goldman Sachs Group Inc.",
+    "iconUrl": "https://img.logo.dev/goldmansachs.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "387.45",
+    "currentPrice": 387.45,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "MS",
+    "companyName": "Morgan Stanley",
+    "iconUrl": "https://img.logo.dev/morganstanley.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "82.34",
+    "currentPrice": 82.34,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "UNH",
+    "companyName": "UnitedHealth Group Inc.",
+    "iconUrl": "https://img.logo.dev/unitedhealthgroup.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "524.18",
+    "currentPrice": 524.18,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "RTX",
+    "companyName": "Raytheon Technologies Corp.",
+    "iconUrl": "https://img.logo.dev/rtx.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "88.67",
+    "currentPrice": 88.67,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "BA",
+    "companyName": "The Boeing Company",
+    "iconUrl": "https://img.logo.dev/boeing.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "224.56",
+    "currentPrice": 224.56,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "CAT",
+    "companyName": "Caterpillar Inc.",
+    "iconUrl": "https://img.logo.dev/caterpillar.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "287.34",
+    "currentPrice": 287.34,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "GE",
+    "companyName": "General Electric Company",
+    "iconUrl": "https://img.logo.dev/ge.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "115.23",
+    "currentPrice": 115.23,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "MMM",
+    "companyName": "3M Company",
+    "iconUrl": "https://img.logo.dev/3m.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "103.45",
+    "currentPrice": 103.45,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "F",
+    "companyName": "Ford Motor Company",
+    "iconUrl": "https://img.logo.dev/ford.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "12.48",
+    "currentPrice": 12.48,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "GM",
+    "companyName": "General Motors Company",
+    "iconUrl": "https://img.logo.dev/gm.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "34.72",
+    "currentPrice": 34.72,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "UBER",
+    "companyName": "Uber Technologies Inc.",
+    "iconUrl": "https://img.logo.dev/uber.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "48.93",
+    "currentPrice": 48.93,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "LYFT",
+    "companyName": "Lyft Inc.",
+    "iconUrl": "https://img.logo.dev/lyft.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "11.24",
+    "currentPrice": 11.24,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "PYPL",
+    "companyName": "PayPal Holdings Inc.",
+    "iconUrl": "https://img.logo.dev/paypal.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "63.47",
+    "currentPrice": 63.47,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "SQ",
+    "companyName": "Block Inc.",
+    "iconUrl": "https://img.logo.dev/block.xyz?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "67.89",
+    "currentPrice": 67.89,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "SPOT",
+    "companyName": "Spotify Technology S.A.",
+    "iconUrl": "https://img.logo.dev/spotify.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "168.45",
+    "currentPrice": 168.45,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "SHOP",
+    "companyName": "Shopify Inc.",
+    "iconUrl": "https://img.logo.dev/shopify.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "64.23",
+    "currentPrice": 64.23,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "SNAP",
+    "companyName": "Snap Inc.",
+    "iconUrl": "https://img.logo.dev/snap.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "10.87",
+    "currentPrice": 10.87,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "TWTR",
+    "companyName": "X Corp. (formerly Twitter)",
+    "iconUrl": "https://img.logo.dev/twitter.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "53.70",
+    "currentPrice": 53.70,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "ZM",
+    "companyName": "Zoom Video Communications Inc.",
+    "iconUrl": "https://img.logo.dev/zoom.us?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "72.34",
+    "currentPrice": 72.34,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "ROKU",
+    "companyName": "Roku Inc.",
+    "iconUrl": "https://img.logo.dev/roku.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "88.56",
+    "currentPrice": 88.56,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "ABNB",
+    "companyName": "Airbnb Inc.",
+    "iconUrl": "https://img.logo.dev/airbnb.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "132.45",
+    "currentPrice": 132.45,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "NKE",
+    "companyName": "Nike Inc.",
+    "iconUrl": "https://img.logo.dev/nike.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "95.67",
+    "currentPrice": 95.67,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "LVMH",
+    "companyName": "LVMH Moët Hennessy Louis Vuitton",
+    "iconUrl": "https://img.logo.dev/lvmh.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "725.43",
+    "currentPrice": 725.43,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "TCEHY",
+    "companyName": "Tencent Holdings Ltd.",
+    "iconUrl": "https://img.logo.dev/tencent.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "42.89",
+    "currentPrice": 42.89,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "BABA",
+    "companyName": "Alibaba Group Holding Ltd.",
+    "iconUrl": "https://img.logo.dev/alibaba.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "75.34",
+    "currentPrice": 75.34,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "TM",
+    "companyName": "Toyota Motor Corporation",
+    "iconUrl": "https://img.logo.dev/toyota.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "215.67",
+    "currentPrice": 215.67,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "SONY",
+    "companyName": "Sony Group Corporation",
+    "iconUrl": "https://img.logo.dev/sony.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "92.34",
+    "currentPrice": 92.34,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "ADSK",
+    "companyName": "Autodesk Inc.",
+    "iconUrl": "https://img.logo.dev/autodesk.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "267.89",
+    "currentPrice": 267.89,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "AI",
+    "companyName": "C3.ai Inc.",
+    "iconUrl": "https://img.logo.dev/c3.ai?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "28.45",
+    "currentPrice": 28.45,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "U",
+    "companyName": "Unity Software Inc.",
+    "iconUrl": "https://img.logo.dev/unity.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "21.87",
+    "currentPrice": 21.87,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "COIN",
+    "companyName": "Coinbase Global Inc.",
+    "iconUrl": "https://img.logo.dev/coinbase.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "164.23",
+    "currentPrice": 164.23,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "AFRM",
+    "companyName": "Affirm Holdings Inc.",
+    "iconUrl": "https://img.logo.dev/affirm.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "35.48",
+    "currentPrice": 35.48,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "SOFI",
+    "companyName": "SoFi Technologies Inc.",
+    "iconUrl": "https://img.logo.dev/sofi.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "12.84",
+    "currentPrice": 12.84,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "RBLX",
+    "companyName": "Roblox Corporation",
+    "iconUrl": "https://img.logo.dev/roblox.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "48.23",
+    "currentPrice": 48.23,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "ETSY",
+    "companyName": "Etsy Inc.",
+    "iconUrl": "https://img.logo.dev/etsy.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "65.67",
+    "currentPrice": 65.67,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "WBA",
+    "companyName": "Walgreens Boots Alliance Inc.",
+    "iconUrl": "https://img.logo.dev/walgreens.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "15.87",
+    "currentPrice": 15.87,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "CVS",
+    "companyName": "CVS Health Corporation",
+    "iconUrl": "https://img.logo.dev/cvs.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "72.34",
+    "currentPrice": 72.34,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "MCD",
+    "companyName": "McDonald's Corporation",
+    "iconUrl": "https://img.logo.dev/mcdonalds.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "288.56",
+    "currentPrice": 288.56,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "SBUX",
+    "companyName": "Starbucks Corporation",
+    "iconUrl": "https://img.logo.dev/starbucks.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "82.34",
+    "currentPrice": 82.34,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "NOC",
+    "companyName": "Northrop Grumman Corporation",
+    "iconUrl": "https://img.logo.dev/northropgrumman.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "478.23",
+    "currentPrice": 478.23,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  },
+  {
+    "symbol": "GD",
+    "companyName": "General Dynamics Corporation",
+    "iconUrl": "https://img.logo.dev/generaldynamics.com?token=pk_FWnEMIWfTBiB7zkmbjuMPg&retina=true",
+    "lastDayTradedPrice": "265.45",
+    "currentPrice": 265.45,
+    "dayTimeSeries": [],
+    "tenMinTimeSeries": []
+  }
+]
