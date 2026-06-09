@@ -3,7 +3,7 @@ import { StatusCodes } from "http-status-codes";
 import { BadRequestError, UnauthenticatedError } from "../../errors/index.js";
 import jwt from "jsonwebtoken";
 
-export const register = async (req, res) => {
+const register = async (req, res) => {
     const { email, password, register_token } = req.body;
 
     if (!email || !password || !register_token) {
@@ -50,8 +50,7 @@ export const register = async (req, res) => {
         refreshToken,
     });
 };
-
-export const login = async (req, res) => {
+const login = async (req, res) => {
     const { email, password } = req.body;
 
     if (!email || !password) {

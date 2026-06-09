@@ -1,9 +1,9 @@
-import User from "../../models/User";
-import OTP from '../../models/otp';
+import User from "../../models/User.js";
+import OTP from '../../models/otp.js';
 import jwt from 'jsonwebtoken'
 import { StatusCodes } from "http-status-codes";
-import { BadRequestError } from "../../errors";
-import { generateOTP } from "../../services/mailSender";
+import { BadRequestError } from "../../errors/index.js";
+import { generateOTP } from "../../services/mailSender.js";
 
 const verifyOtp = async (req, res) => {
     const { email, otp, otp_type, data } = req.body

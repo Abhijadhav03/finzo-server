@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 import bycrypt from "bcryptjs";
-import { mailSender } from "../services/mailSender";
+import { mailSender } from "../services/mailSender.js";
 
 const otpSchema = new mongoose.Schema({
     email: {

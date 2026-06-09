@@ -1,6 +1,6 @@
-import User from "../../models/user"
+import User from "../../models/User.js";
 import { StatusCodes } from "http-status-codes"
-import { BadRequestError, UnauthenticatedError } from "../../errors"
+import { BadRequestError, UnauthenticatedError } from "../../errors/index.js";
 import jwt from "jsonwebtoken"
 import NodeRSA from "node-rsa"
 
@@ -59,10 +59,10 @@ const verifyBiometrics = async (req, res) => {
     })
     user.blocked_until_pin = null;
     user.wrong_pin_attempts = 0;
-    socket_tokens: {
+    user.socket_tokens = {
         socket_access_token: access_token,
-            socket_refresh_token: refresh_token
-    }
+        socket_refresh_token: refresh_token
+    };
     await user.save();
 }
 

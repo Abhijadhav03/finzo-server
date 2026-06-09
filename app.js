@@ -4,7 +4,8 @@ import dotenv from 'dotenv'
 import { createServer } from 'http'
 import cors from 'cors'
 import YAML from 'yamljs'
-import connectDB from './db/connectDB.js'
+import swaggerUi from 'swagger-ui-express'
+import connectDB from './config/connect.js'
 import errorHandleMiddleware from './middlewares/error-handler.js'
 import notFoundMiddleware from './middlewares/not-found.js'
 import authRouter from './routes/auth.js'
@@ -18,6 +19,7 @@ const __dirname = path.dirname(__filename)
 dotenv.config();
 const app = express()
 app.use(express.json());
+app.use(cors());
 
 const httpServer = createServer(app)
 
@@ -36,16 +38,14 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument))
 app.use('/auth', authRouter)
 
 
-//middlewares
-app.use(cors());
 app.use(notFoundMiddleware)
 app.use(errorHandleMiddleware)
 
 //start server
 const start = async () => {
     try {
-        await connectDB(process.env.MONGO_URL)
-        const PORT = process.env.PORT || 5000
+        await connectDB(process.env.MONGO_URI)
+        const PORT = process.env.PORT || 3000
         httpServer.listen(PORT, () => {
             console.log(`Server is running on port ${PORT}`)
         })

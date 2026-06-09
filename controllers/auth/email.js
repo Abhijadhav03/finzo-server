@@ -1,9 +1,9 @@
-import User from "../../models/User";
+import User from "../../models/User.js";
 import { StatusCodes } from "http-status-codes";
-import { BadRequestError, UnauthenticatedError } from "../../errors";
+import { BadRequestError, UnauthenticatedError } from "../../errors/index.js";
 import jwt from "jsonwebtoken";
-import { generateOTP } from "../../services/mailSender";
-import Otp from "../../models/otp";
+import { generateOTP } from "../../services/mailSender.js";
+import Otp from "../../models/otp.js";
 
 
 const checkEmail = async (req, res) => {
