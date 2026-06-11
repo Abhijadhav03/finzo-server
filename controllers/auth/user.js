@@ -90,12 +90,7 @@ const setLoginPinFirst = async (req, res) => {
         );
     }
 
-    const salt = await bcrypt.genSalt(10);
-
-    user.login_pin = await bcrypt.hash(
-        login_pin,
-        salt
-    );
+    user.login_pin = login_pin;
 
     await user.save();
 

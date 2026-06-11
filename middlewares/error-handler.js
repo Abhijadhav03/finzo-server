@@ -13,7 +13,7 @@ const errorHandleMiddleware = (err, req, res, next) => {
 
     if (err.code && err.code === 11000) {
         defaultError.statusCodes = StatusCodes.BAD_REQUEST
-        defaultError.msg = Object.values(err.errors).map((item) => item.message).join(',')
+        defaultError.msg = `${Object.keys(err.keyValue)} field has to be unique`
     }
 
     if (err.name === 'CastError') {

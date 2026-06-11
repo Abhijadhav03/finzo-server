@@ -24,14 +24,12 @@ const otpSchema = new mongoose.Schema({
         enum: ["phone", "email", "reset_password", "reset_pin"],
     }
 }, { timestamps: true });
-otpSchema.pre("save", async function (next) {
+otpSchema.pre("save", async function () {
     if (this.isNew) {
         const salt = await bycrypt.genSalt(10)
         await sendVerificationEmail(this.email, this.otp, this.otp_type);
         this.otp = await bycrypt.hash(this.otp, salt)
     }
-
-    next();
 })
 
 async function sendVerificationEmail(email, otp, otp_type) {

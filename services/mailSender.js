@@ -7,9 +7,9 @@ import InlineCss from "inline-css";
 export const mailSender = async (email, otp, otp_type) => {
     let htmlContent = fs.readFileSync('otp_template.html', 'utf-8');
 
-    htmlContent = htmlContent.replace('TradingApp_otp', otp);
-    htmlContent = htmlContent.replace('TradingApp_otp_type', otp_type);
-    htmlContent = htmlContent.replace('TradingApp_otp_expiry', "10 minutes");
+    htmlContent = htmlContent.replace(/{{OTP}}/g, otp);
+    htmlContent = htmlContent.replace(/{{OTP_TYPE}}/g, otp_type.charAt(0).toUpperCase() + otp_type.slice(1));
+    htmlContent = htmlContent.replace(/{{EXPIRY}}/g, "5 minutes");
     const options = {
         url: ' ',
     }

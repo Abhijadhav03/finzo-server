@@ -30,11 +30,14 @@ const verifyOtp = async (req, res) => {
         case "phone":
             await User.findOneAndUpdate({ email }, { phone_number: data });
             break;
-        case "email":
-            const user = await User.findOne({ email });
-            user.email_verified = true;
-            await user.save();
+        case "email": {
+            const emailUser = await User.findOne({ email });
+            if (emailUser) {
+                emailUser.email_verified = true;
+                await emailUser.save();
+            }
             break;
+        }
         case "reset_password":
             const user_reset = await User.findOne({ email });
             user_reset.password = data;

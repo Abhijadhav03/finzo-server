@@ -140,9 +140,9 @@
             
             <div class="otp-container">
                 <p style="text-align: center; font-size: 18px; color: #7f8c8d; margin-bottom: 15px;">
-                    Your One-Time Password
+                    Your {{OTP_TYPE}} One-Time Password
                 </p>
-                <p class="otp-code" style="margin: 0;">tradevault_otp</p>
+                <p class="otp-code" style="margin: 0;">{{OTP}}</p>
             </div>
 
             <div class="otp-section">
@@ -151,12 +151,12 @@
                     <p>Your one-time password (OTP) for TradeVault is:</p>
                     
                     <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; margin: 20px 0;">
-                        <p style="margin: 0; font-size: 24px; font-weight: bold; color: #667eea;">tradevault_otp2</p>
+                        <p style="margin: 0; font-size: 24px; font-weight: bold; color: #667eea;">{{OTP}}</p>
                     </div>
 
                     <p><strong>Important:</strong></p>
                     <ul style="color: #2c3e50; line-height: 1.6;">
-                        <li>This OTP is valid for 15 minutes only</li>
+                        <li>This OTP is valid for {{EXPIRY}} only</li>
                         <li>Use it only once to access your account</li>
                         <li>Never share this OTP with anyone</li>
                     </ul>

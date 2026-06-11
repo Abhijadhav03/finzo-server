@@ -9,6 +9,7 @@ import connectDB from './config/connect.js'
 import errorHandleMiddleware from './middlewares/error-handler.js'
 import notFoundMiddleware from './middlewares/not-found.js'
 import authRouter from './routes/auth.js'
+import stockRouter from "./routes/stocks.js"
 import { dirname } from 'path'
 import { fileURLToPath } from 'url'
 import path from 'path'
@@ -36,7 +37,7 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument))
 
 // routes 
 app.use('/auth', authRouter)
-
+app.use("/stocks", auth, stockRouter);
 
 app.use(notFoundMiddleware)
 app.use(errorHandleMiddleware)
