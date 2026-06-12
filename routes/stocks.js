@@ -17,7 +17,7 @@ router.get("/stock", getSingleStock);
 router.post("/buy", buyStock);
 router.post("/sell", sellStock);
 router.get("/order", getAllOrders);
-router.get("/holdings", getAllHoldings);
+router.get("/holding", getAllHoldings);
 // router.put("/stocks/:symbol", updateStockPrice)
 
 

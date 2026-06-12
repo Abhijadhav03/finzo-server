@@ -44,11 +44,11 @@ const buyStock = async (req, res) => {
         await newHolding.save();
 
         const newOrder = new Order({
-            user: userId,
-            stock: stock_id,
+            userId: userId,
+            stockId: stock_id,
             quantity: quantity,
             price: stock.currentPrice,
-            type: "buy",
+            orderType: "buy",
             remainingBalance: currentUser.balance,
 
         })
@@ -105,18 +105,18 @@ const sellStock = async (req, res) => {
         await holding.save();
 
         const newOrder = new Order({
-            user: userId,
-            stock: holding.stock,
+            userId: userId,
+            stockId: holding.stock,
             quantity: quantity,
             price: sellPrice,
-            type: "sell",
+            orderType: "sell",
             remainingBalance: currentUser.balance,
         });
 
         await newOrder.save();
         res.status(StatusCodes.CREATED).json({
             msg: "Stock sold successfully",
-            data: newHolding
+            data: holding
         })
     } catch (error) {
         console.log(error);

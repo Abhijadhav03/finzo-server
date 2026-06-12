@@ -47,7 +47,7 @@ const getAllStocks = async (req, res) => {
 };
 
 const getSingleStock = async (req, res) => {
-    const { symbol } = req.params;
+    const symbol = req.query.stock;
     if (!symbol) {
         throw new BadRequestError("Please provide stock symbol")
     }

@@ -14,7 +14,8 @@ const SocketAuth = async (req, res, next) => {
     try {
         const payload = jwt.verify(token, process.env.SOCKET_TOKEN_SECRET)
         req.user = {
-            userId: payload.userId
+            userId: payload.userId,
+            name: payload.name
         }
         next();
     } catch (error) {
